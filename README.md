@@ -47,4 +47,4 @@ Below is a list of features that will be added as I continue to develop this pro
 	- Log In/Sign Up Authentication
 	- Implementation of a encrypted database to store rooms (rather than using a HashMap)
 - Installation
-	- After basic website features are implemented, the program will be (hopefully) hosted to a domain 
+	- After basic website features are implemented, the program will be (hopefully) hosted to a domain (that supports server-to-client communication)
