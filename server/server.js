@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
         socket.data.username = username;
     }));
     
-    //creating room
+    // creating room
     socket.on("createRoom", async (callback) => { // callback function from client
         const roomId = uuidV4(); // creating uuid for room
         await socket.join(roomId); // user who created room joins
@@ -41,12 +41,12 @@ io.on('connection', (socket) => {
         callback(roomId); // respond with roomId to client
     });
 
-    //joining a room
+    // joining a room
     socket.on("joinRoom", async(args, callback) => {
         const room = rooms.get(args.roomId);
         let error, message;
 
-        //check if room exists and has player
+        // check if room exists and has player
         if (!room) {
             error = true;
             message = "room doesn't exist!";
@@ -124,6 +124,4 @@ io.on('connection', (socket) => {
 
         rooms.delete(data.roomId); // delete room
     })
-
-    
 })
