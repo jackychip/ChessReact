@@ -35,7 +35,7 @@ When a game is complete, or a person disconnects, the room will disconnect and a
 
 ## Demo
 
-https://github.com/jackychip/chessreact/assets/139477720/c8392b3b-ed96-4b3b-881f-4ca159bd45b9
+https://github.com/jackychip/chessreact/assets/139477720/2c32c4d1-d71a-4695-8441-867243270eab
 
 ## TO-DO (next steps)
 
