@@ -33,6 +33,10 @@ In Chess Realm, users must create or join rooms to facilitate a space for chess 
 
 When a game is complete, or a person disconnects, the room will disconnect and another room would have to be made.
 
+## Demo
+
+![](assets/demo.mp4)
+
 ## TO-DO (next steps)
 
 Below is a list of features that will be added as I continue to develop this program (in no particular order):
@@ -48,3 +52,5 @@ Below is a list of features that will be added as I continue to develop this pro
 	- Implementation of a encrypted database to store rooms (rather than using a HashMap)
 - Installation
 	- After basic website features are implemented, the program will be (hopefully) hosted to a domain (that supports server-to-client communication)
+
+This README.md file will change according to the progress of above features.
