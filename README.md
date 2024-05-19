@@ -37,18 +37,22 @@ When a game is complete, or a person disconnects, the room will disconnect and a
 
 https://github.com/jackychip/chessreact/assets/139477720/2c32c4d1-d71a-4695-8441-867243270eab
 
+A macroscopic flowchart of my program can be found here: `"assets/flowchart.png"`
+
 ## TO-DO (next steps)
 
 Below is a list of features that will be added as I continue to develop this program (in no particular order):
 
 - Basic Features
-	- Implementation of proposed front-end design in `"assets/design.png"`
+	- Implementation of proposed front-end design in `"assets/design1.png"` and `"assets/design2.png"`
 	- Implementation of responsive website design
 	- Refactor code for scalability
 	- Fix bugs in move handling (e.g. users can move pieces before other players join)
 - Advanced Features
 	- Spectators and live chatrooms running in parallel to chess games
 	- Log In/Sign Up Authentication
+	- Quick Play feature
+	- Implementation of rating (ELO)
 	- Implementation of a encrypted database to store rooms (rather than using a HashMap)
 - Installation
 	- After basic website features are implemented, the program will be (hopefully) hosted to a domain (that supports server-to-client communication)
